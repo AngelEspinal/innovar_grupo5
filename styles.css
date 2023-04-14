@@ -4,7 +4,7 @@ body{
 }
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 4fr 0.5fr;
     background-color:#5B1724;
 }
 .img1-container{
@@ -17,6 +17,7 @@ header{
 .tittle{
     text-align: center;
     color: aliceblue;
+    margin-top: 5%;
 
 }
 
