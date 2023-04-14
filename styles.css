@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(235, 230, 230);
+    margin: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#5B1724;
+}
+.img1-container{
+    width:100%
+}
+.img2-container{
+    width:100%;
+    text-align: right;
+}
+.tittle{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.target-main{
+    background-color:rgb(132, 240, 240);
+    margin : 0 auto;
+    text-align: center;
+}
