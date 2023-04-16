@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.card h3{
+    text-align: center;
+}
+.card input{
+    display: block;
+    padding: 0 20px;
+    height: 62px;
+    margin: 15px auto 15px auto;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.card input[type="submit"]{
+    background-color: #a3293f;
+    color: #fff;
+    border: 0;
+}
+.card input[type="submit"]:hover{
+    transition: all 0.3s ease-out;
+    background-color: #7e1a2c;
+}
+.card a{ 
+    color: #7a7a7a;
+}
