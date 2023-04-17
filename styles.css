@@ -31,10 +31,7 @@ img{
 }
 
 .target-main{
-    
-    background-color:#E9E5E2;
     width:100%;
-    height: 400px;
     display: flex;
     justify-content: center;
 
@@ -42,15 +39,16 @@ img{
 .target{
     text-align: center;
     margin: 24px;
-    background-color:#FAFAFA;
-    width: 200px;
-    height:300px;
     border-radius:1mm;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 button{
     border-radius: 1mm;
     background-image: linear-gradient( 100deg, #5B1724 15%, #2e0c13 100%);
     border:none;
+    cursor: pointer;
     margin-top: 15px;
     width: 150px;
     height: 40px;
